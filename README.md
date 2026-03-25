@@ -48,6 +48,28 @@ The agent (Deep Q-Network) learns to assign vehicles to specific floors to minim
 
 ---
 
+## 📊 Performance Analysis & Experimental Results
+
+The effectiveness of the Intelligent Digital Twin was evaluated through a rigorous 24-hour simulation, comparing three distinct management strategies.
+
+### 📥 1. Simulation Context
+To mirror real-world conditions, we modeled a stochastic diurnal traffic cycle representing a typical urban business area, featuring morning and evening peak hours.
+![Traffic Scenario](./screenshots/traffic_scenario.png)
+
+### 🧠 2. Learning Strategy (Epsilon-Greedy)
+The agent uses an **Epsilon-Decay strategy** to manage the exploration-exploitation trade-off. It starts by exploring the parking environment and gradually transitions to exploiting its learned knowledge for optimal vehicle assignment.
+![Epsilon Decay](./screenshots/epsilon_decay.png)
+
+### ⚡ 3. Energy Impact Comparison
+Our RL-based strategy (blue) was compared against the "Always-On" baseline (red) and the "All-Green" heuristic (green).
+
+| Instantaneous Power Demand (W) | Cumulative Energy Consumption (Wh) |
+|:---:|:---:|
+| ![Instantaneous Power](./screenshots/power_instantaneous.png) | ![Cumulative Energy](./screenshots/energy_cumulative.png) |
+| *Real-time adaptation to traffic* | *Final 81.8% efficiency gain* |
+
+**Key Finding:** While the heuristic approach reduces waste, only the Reinforcement Learning agent manages to keep the infrastructure in "standby mode" during low-traffic periods, leading to a massive **81.8% energy saving**.
+
 ## 📁 Repository Structure
 - **`/docs`**: Full dissertation report and Best Paper Award documentation.
 - **`/rl-engine`**: Python scripts and Jupyter Notebooks for agent training and traffic simulation.
