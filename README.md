@@ -26,6 +26,17 @@ Modern smart parkings use LED-based guidance systems that consume massive amount
 - **60% Search Time Optimization:** Improved user experience through intelligent vehicle distribution.
 
 ---
+## 🎮 Live Interactive Simulation (Sandbox)
+I developed a standalone web-based simulator to demonstrate the energy logic of the 4 different scenarios. No installation is required.
+
+👉 **[Launch Live Simulation](https://Lynda7.github.io/intelligent-digital-twin-smart-parking/web-simulation/)**
+
+### 🧪 Scenarios Compared:
+1. **Always-On:** Traditional full-power mode.
+2. **Green Only:** Reactive mode (lights only for free spots).
+3. **Smart Threshold:** Agent activates lights only if floor occupancy > 50%.
+4. **Advanced Balancing:** Optimized floor selection based on real-time flow.
+
 
 ## 🌐 System Architecture
 The project features a decoupled architecture ensuring real-time synchronization between the virtual model and the physical simulation.
