@@ -29,7 +29,7 @@ Modern smart parkings use LED-based guidance systems that consume massive amount
 ## 🎮 Live Interactive Simulation (Sandbox)
 I developed a standalone web-based simulator to demonstrate the energy logic of the 4 different scenarios. No installation is required.
 
-👉 **[Launch Live Simulation](https://Lynda7.github.io/intelligent-digital-twin-smart-parking/web-simulation/)**
+👉 **[Launch Live Simulation](https://Lynda7.github.io/intelligent-digital-twin-smart-parking/)**
 
 ### 🧪 Scenarios Compared:
 1. **Always-On:** Traditional full-power mode.
